@@ -1,0 +1,5 @@
+[
+  { "outcome": "home", "odds": [{ "bookmaker": "CasaA", "decimal": 2.25 }, { "bookmaker": "CasaB", "decimal": 2.1 }] },
+  { "outcome": "draw", "odds": [{ "bookmaker": "CasaA", "decimal": 3.3 }, { "bookmaker": "CasaB", "decimal": 3.75 }] },
+  { "outcome": "away", "odds": [{ "bookmaker": "CasaA", "decimal": 4.2 }, { "bookmaker": "CasaC", "decimal": 4.6 }] }
+]

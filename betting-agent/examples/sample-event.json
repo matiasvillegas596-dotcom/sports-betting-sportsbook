@@ -1,0 +1,13 @@
+{
+  "id": 10001,
+  "sport_id": 1,
+  "time": 1793131200,
+  "league": { "name": "Liga de ejemplo" },
+  "home": { "name": "Atlético" },
+  "away": { "name": "Rayo" },
+  "odds": {
+    "1_1": { "home_od": "1.80", "draw_od": "3.60", "away_od": "4.75" },
+    "1_2": { "home_od": "1.95", "away_od": "1.90", "handicap": "-0.75" },
+    "1_3": { "over_od": "2.05", "under_od": "1.80", "handicap": "2.5" }
+  }
+}

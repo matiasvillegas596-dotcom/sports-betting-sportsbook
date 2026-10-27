@@ -1,0 +1,23 @@
+{
+  "name": "betting-agent",
+  "version": "1.0.0",
+  "description": "Agente analista de apuestas deportivas: modelos de probabilidad, valor esperado, Kelly y seguimiento de CLV, con Claude como analista.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "agent": "node --experimental-strip-types --no-warnings src/cli.ts chat",
+    "cli": "node --experimental-strip-types --no-warnings src/cli.ts",
+    "test": "node --experimental-strip-types --no-warnings --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.137.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.9.3"
+  }
+}
